@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- tailwind daisyui  -->
+    <!-- tailwind daisiui  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.2/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- font awesome  -->
@@ -142,34 +142,40 @@
              words which don't look even slightly believable. </p>
             </div>
         </div>
-        <div class="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4 text-center ">
-            <div class="border-solid  p-1 border-2 rounded-xl border-gray-200">
+        <div class="grid grid-cols-1 ser-card md:grid-cols-2 lg:grid-cols-3 gap-4 text-center ">
+            <div class="border-solid  cursor-pointer  p-1 border-2 rounded-xl border-gray-200">
                 <img src="image/c1.png" alt="service image">
                 <div class=" p-5">
                     <h2 class="text-xl py-2 ">Car Engine Plug</h2>
                     <p>Engine Expert</p>
-                <div class="flex justify-between text-[#FF3811]">
-
+                <div class="flex justify-center icon space-x-2 py-2 text-2xl  ">
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
                 </div>
                 </div>
             </div>
-            <div class="border-solid  p-1 border-2 rounded-xl border-gray-200">
+            <div class="border-solid ser-card cursor-pointer  p-1 border-2 rounded-xl border-gray-200">
                 <img src="image/c2.png" alt="service image">
                 <div class=" p-5">
                     <h2 class="text-xl py-2 ">Car Engine Plug</h2>
                     <p>Engine Expert</p>
-                <div class="flex justify-between text-[#FF3811]">
-
+                <div class="flex justify-center icon space-x-2 py-2 text-2xl" >
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
                 </div>
                 </div>
             </div>
-            <div class="border-solid  p-1 border-2 rounded-xl border-gray-200">
+            <div class="border-solid ser-card cursor-pointer  p-1 border-2 rounded-xl border-gray-200">
                 <img src="image/c3.png" alt="service image">
                 <div class=" p-5">
                     <h2 class="text-xl py-2 ">Car Engine Plug</h2>
                     <p>Engine Expert</p>
-                <div class="flex justify-center text-[#FF3811]">
-
+                <div class="flex justify-center icon space-x-2 py-2 text-2xl" >
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
                 </div>
                 </div>
             </div>
@@ -178,5 +184,33 @@
         
         </div>
     </main>
+
+    <!-- footer section  -->
+    <footer class=" w-full bg-[#151515] text-white mx-auto">
+       <div class="flex flex-col  md:flex-row space-y-5  w-11/12 md:w-10/12 mx-auto space-x-5 py-20">
+        <div class="flex-1">
+            <img src="image/logo.png" class="20" alt="">
+            <h1 class="text-left font-bold text-gray-600" style="font-family: cursive;">Car Doctor</h1>
+            
+           </div> 
+           <div class="flex-1">
+             <h3 class="footer-title">About</h3> 
+             <p class="link link-hover">Home</p> 
+             <p class="link link-hover">About</p> 
+             <p class="link link-hover">SERvice</p> 
+           </div> 
+           <div class="flex-1">
+             <h3 class="footer-title">Company</h3> 
+             <p class="link link-hover">Car Doctor</p> 
+             <p class="link link-hover">About</p> 
+           </div> 
+           <div class="flex-1">
+             <h3 class="footer-title">Support</h3> 
+             <p class="link link-hover">Support Center</p> 
+             <p class="link link-hover">Feedback</p> 
+             <p class="link link-hover">Accesbility</p>
+           </div>
+       </div>
+      </footer>
 </body>
 </html>

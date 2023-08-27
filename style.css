@@ -13,3 +13,9 @@
 
     
 }
+.ser-card{
+    transition: .3s all ease-in-out;
+}
+.ser-card :hover .icon{
+    color: #FF3811;
+}
